@@ -16,9 +16,9 @@ def read_requirements(filename):
 setup(
     name='sparse_lut',
     python_requires='>=3.7.0', # python version
-    version= '1.0.0r3', # package version
+    version= '1.0.0', # package version
     description="Sparse Look-Up-Table",  # introduction, displayed on PyPI
-    long_description=read_file('README.md'), # Readme
+    long_description=read_file('README.PyPI.md'), # Readme
     long_description_content_type="text/markdown",  # markdown
     author="Bowen XU",
     author_email='xubowen@pku.edu.cn',
