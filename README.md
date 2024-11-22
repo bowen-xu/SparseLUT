@@ -129,7 +129,7 @@ lut.add([[1,2], [1], [0,1,2], [0,1,2], [0,1,2]], "C")
 
 ```Python
 # building the sparse-lut
-lut.build(False) # set True is visualization is not required 
+lut.build(False) # set True if visualization is not required 
 ```
 
 第四，如果需要可视化，则通过`draw`方法进行。 上述例子的可视化结果如图8所示。
